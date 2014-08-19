@@ -5,7 +5,7 @@ public class Test : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+		//Hello im going to test the merge feuture of Git
 	}
 	
 	// Update is called once per frame
