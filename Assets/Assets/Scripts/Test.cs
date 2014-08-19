@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Test : MonoBehaviour {
@@ -10,6 +10,6 @@ public class Test : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+	//Testing the git feture of the merge option, ok?
 	}
 }
