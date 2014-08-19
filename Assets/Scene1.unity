@@ -1126,7 +1126,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &1010578284
 Renderer:
   m_ObjectHideFlags: 0
@@ -1139,7 +1139,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: f90b43f441a9ecc4cb717692c75bb211, type: 2}
+  - {fileID: 2100000, guid: 78d7f6d5f3e2744249a8780a4b06f13b, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1601,6 +1601,7 @@ GameObject:
   - 114: {fileID: 1348885617}
   - 114: {fileID: 1348885616}
   - 114: {fileID: 1348885620}
+  - 114: {fileID: 1348885621}
   m_Layer: 0
   m_Name: 3rd Person Controller
   m_TagString: Player
@@ -1725,6 +1726,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathHeight: -15
+--- !u!114 &1348885621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1348885614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cae09c86ad1122e5d0006ac98d76c639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spring: 50
+  damper: 5
+  drag: 10
+  angularDrag: 5
+  distance: .200000003
+  attachToCenterOfMass: 0
 --- !u!1 &1392365978
 GameObject:
   m_ObjectHideFlags: 0
@@ -2150,7 +2168,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f90b43f441a9ecc4cb717692c75bb211, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
